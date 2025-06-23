@@ -4,9 +4,9 @@ export default function Header (){
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
             <h1 className="text-2xl " style={{color:"black"}}>Blog</h1>
             <nav className="space-x-4">
-                <a href="#" className="text-blue-500">Home</a>
-                <a href="#" className="text-blue-500">About</a>
-                <a href="#" className="text-blue-500">Contact</a>
+                <a href="/" className="text-blue-500">Home</a>
+                <a href="./about" className="text-blue-500">About</a>
+                <a href="./contact" className="text-blue-500">Contact</a>
             </nav>
         </div>
     </header>
